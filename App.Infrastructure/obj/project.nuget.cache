@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "L/GHzu/MOf/IIHrzWg9M+Dszg2kcFwr37WYOALySSLVJf3mWHVXw3D6N/f2fjpd18UWbsh+CM2PN5eh3vW1tEA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Infrastructure\\App.Infrastructure.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\renan.dummel\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,15 @@
+C:\Users\renan.dummel\source\repos\App\App.Aplication\obj\Debug\net6.0\App.Aplication.csproj.AssemblyReference.cache
+C:\Users\renan.dummel\source\repos\App\App.Aplication\obj\Debug\net6.0\App.Aplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\renan.dummel\source\repos\App\App.Aplication\obj\Debug\net6.0\App.Aplication.AssemblyInfoInputs.cache
+C:\Users\renan.dummel\source\repos\App\App.Aplication\obj\Debug\net6.0\App.Aplication.AssemblyInfo.cs
+C:\Users\renan.dummel\source\repos\App\App.Aplication\obj\Debug\net6.0\App.Aplication.csproj.CoreCompileInputs.cache
+C:\Users\renan.dummel\source\repos\App\App.Aplication\bin\Debug\net6.0\App.Aplication.deps.json
+C:\Users\renan.dummel\source\repos\App\App.Aplication\bin\Debug\net6.0\App.Aplication.dll
+C:\Users\renan.dummel\source\repos\App\App.Aplication\bin\Debug\net6.0\App.Aplication.pdb
+C:\Users\renan.dummel\source\repos\App\App.Aplication\obj\Debug\net6.0\App.Aplication.dll
+C:\Users\renan.dummel\source\repos\App\App.Aplication\obj\Debug\net6.0\refint\App.Aplication.dll
+C:\Users\renan.dummel\source\repos\App\App.Aplication\obj\Debug\net6.0\App.Aplication.pdb
+C:\Users\renan.dummel\source\repos\App\App.Aplication\obj\Debug\net6.0\ref\App.Aplication.dll
+C:\Users\renan.dummel\source\repos\App\App.Aplication\bin\Debug\net6.0\App.Domain.dll
+C:\Users\renan.dummel\source\repos\App\App.Aplication\bin\Debug\net6.0\App.Domain.pdb
+C:\Users\renan.dummel\source\repos\App\App.Aplication\obj\Debug\net6.0\App.Aplication.csproj.CopyComplete
