@@ -28,6 +28,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2lkYWRlcy1mb3JtdWxhcmlvXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/renan.dummel/source/repos/App/App.Web/Pages/cidades-formulario/usuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2lkYWRlcy1mb3JtdWxhcmlvXHVzdWFyaW9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/renan.dummel/source/repos/App/App.Web/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

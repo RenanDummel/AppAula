@@ -29,8 +29,16 @@
       "PackagePath": "staticwebassets\\js\\pages\\cidades.js"
     },
     {
+      "Id": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\usuarios.js",
+      "PackagePath": "staticwebassets\\js\\pages\\usuarios.js"
+    },
+    {
       "Id": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\services\\CidadeService.js",
       "PackagePath": "staticwebassets\\js\\services\\CidadeService.js"
+    },
+    {
+      "Id": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\services\\UsuariosService.js",
+      "PackagePath": "staticwebassets\\js\\services\\UsuariosService.js"
     },
     {
       "Id": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\site.js",
