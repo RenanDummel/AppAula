@@ -3,14 +3,14 @@ $(document).ready(function () {
 });
 
 function load() {
-    UsuariosListaUsuarios().then(function (data) {
+    UsuarioListaUsuarios().then(function (data) {
         data.forEach(obj => {
             $('#table tbody').append('' +
-                '<tr id="obj-') + obj.id + '">' +
+                '<tr id="obj-' + obj.id + '">' +
                 '<td>' + (obj.nome || '--') + '</td>' +
                 '<td>' + (obj.email || '--') + '</td>' +
                 '<td>' + (obj.senha || '--') + '</td>' +
-                '</tr>');
+                '</tr>')
         });
     });
 }

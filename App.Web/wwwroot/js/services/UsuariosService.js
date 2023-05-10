@@ -13,9 +13,9 @@ async function UsuariosListaUsuarios() {
     });
 }
 
-async function UsuarioSalvar(obj) {
+async function UsuariosSalvar(obj) {
     return new Promise((resolve, reject) => {
-        Post('Usuario/Salvar', obj).then(function (response) {
+        Post('Usuarios/Salvar', obj).then(function (response) {
             if (response.status === 'success') {
                 resolve(response.data);
             } else {

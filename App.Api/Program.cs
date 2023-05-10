@@ -1,50 +1,43 @@
 using App.Persistence;
-using Microsoft.AspNetCore;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi.Models;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
+builder.Services.AddSwaggerGen(c =>
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "App.Api", Version = "v1" })
+);
+
+builder.Services.AddCors();
+builder.Services.AddOptions();
+
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseNpgsql(builder.Configuration.GetConnectionString("AppDb"))
+);
+
+App.Persistence.DependencyInjectionConfig.Inject(builder.Services);
+App.Application.DependencyInjectionConfig.Inject(builder.Services);
+App.Infrastructure.DependencyInjectionConfig.Inject(builder.Services);
 
 var app = builder.Build();
 
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
+    app.UseDeveloperExceptionPage();
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "App.Api v1"));
 }
 
-app.UseHttpsRedirection();
+app.UseRouting();
 
-app.UseAuthorization();
+app.UseCors(builder => builder
+    .AllowAnyHeader()
+    .AllowAnyMethod()
+    .AllowAnyOrigin()
+);
 
 app.MapControllers();
 
-app.Run();
 
-namespace App.Api
-{
-    public class Program
-    {
-        public static void Main(string[] args)
-        {
-            var host = CreateWebHostBuilder(args).Build();
-            using (var scope = host.Services.CreateScope())
-            {
-                var context = scope.ServiceProvider.GetService<AppDbContext>();
-                context.Database.Migrate();
-                AppInitializer.Initialize(context);
-            }
-            host.Run();
-        }
-        public static IWebHostBuilder CreateWebHostBuilder(string[] args) =>
-            WebHost.CreateDefaultBuilder(args)
-                .UseStartup<Startup>();
-    }
-}
+app.Run();
