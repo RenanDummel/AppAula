@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YdohxmgjWwNhoHwtWZnPIVPNOQZDuVSxsAMZA5MaU/GfzvSmoZcIiIjoWeUzvrCCJm5v4SeCXXFF/aP7fuWQpQ==",
+  "dgSpecHash": "vCCs/4WDZEk2P8wUhRDe833MgLR12vo8QLOcdMHGHfZVCWSW3uccgfcpJoAdZ2sJYhmp+EU96X02HpuyT2J4BQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Persistence\\App.Persistence.csproj",
   "expectedPackageFiles": [
@@ -26,7 +26,6 @@
     "C:\\Users\\renan.dummel\\.nuget\\packages\\npgsql\\7.0.4\\npgsql.7.0.4.nupkg.sha512",
     "C:\\Users\\renan.dummel\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\7.0.4\\npgsql.entityframeworkcore.postgresql.7.0.4.nupkg.sha512",
     "C:\\Users\\renan.dummel\\.nuget\\packages\\system.codedom\\4.4.0\\system.codedom.4.4.0.nupkg.sha512",
-    "C:\\Users\\renan.dummel\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
     "C:\\Users\\renan.dummel\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\renan.dummel\\.nuget\\packages\\system.text.json\\7.0.0\\system.text.json.7.0.0.nupkg.sha512"
   ],

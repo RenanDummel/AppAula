@@ -24,14 +24,6 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2lkYWRlcy1mb3JtdWxhcmlvXGNpZGFkZXMtZm9ybXVsYXJpby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/renan.dummel/source/repos/App/App.Web/Pages/cidades-formulario/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2lkYWRlcy1mb3JtdWxhcmlvXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/renan.dummel/source/repos/App/App.Web/Pages/cidades-formulario/usuarios.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2lkYWRlcy1mb3JtdWxhcmlvXHVzdWFyaW9zLmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/renan.dummel/source/repos/App/App.Web/Pages/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRXJyb3IuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -46,6 +38,14 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/renan.dummel/source/repos/App/App.Web/Pages/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/renan.dummel/source/repos/App/App.Web/Pages/usuarios-formulario/usuarios-formulario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdXN1YXJpb3MtZm9ybXVsYXJpb1x1c3Vhcmlvcy1mb3JtdWxhcmlvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/renan.dummel/source/repos/App/App.Web/Pages/usuarios-formulario/usuarios.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcdXN1YXJpb3MtZm9ybXVsYXJpb1x1c3Vhcmlvcy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/renan.dummel/source/repos/App/App.Web/Pages/_ViewImports.cshtml]

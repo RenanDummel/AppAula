@@ -1,8 +1,8 @@
 function salvar() {
     let obj = {
-        cep: ($("[name='nome']").val() || ''),
-        nome: ($("[name='email']").val() || ''),
-        uf: ($("[name='senha']").val() || ''),
+        nome: ($("[name='nome']").val() || ''),
+        email: ($("[name='email']").val() || ''),
+        senha: ($("[name='senha']").val() || ''),
     };
     CidadesSalvar(obj).then(function () {
         window.location.href = '/usuarios';

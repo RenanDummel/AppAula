@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "o+Z+Yl/b4SSZpQm5DIxXPJmdTXq8f3Qo1tGtiF/nGOZoWekMnahF2/flkUbaH3n93yjJ5aTwBrLajgEM0pkqhA==",
+  "dgSpecHash": "ohWvVhEzHDE8EMj/3DqY3r6ewqjeY/nbCRQJ0iJapDqG+/cXohFq/5XlxQY7l51zg/Iwa2p+BTsMaPSvuy2zAA==",
   "success": true,
   "projectFilePath": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Application\\App.Application.csproj",
   "expectedPackageFiles": [
@@ -15,8 +15,7 @@
     "C:\\Users\\renan.dummel\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\microsoft.extensions.logging.abstractions.7.0.0.nupkg.sha512",
     "C:\\Users\\renan.dummel\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\microsoft.extensions.options.7.0.0.nupkg.sha512",
     "C:\\Users\\renan.dummel\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "C:\\Users\\renan.dummel\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
-    "C:\\Users\\renan.dummel\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    "C:\\Users\\renan.dummel\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

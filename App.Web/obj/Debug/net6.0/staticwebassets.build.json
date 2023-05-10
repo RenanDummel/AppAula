@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Td0kelKTq9hmwEWZrCPoAtvYz2+n+QjErtgT5wvcIVg=",
+  "Hash": "+/+racF6uUbOYGp8OSB/itab0Ex5PK959aCW2MuGL2I=",
   "Source": "App.Web",
   "BasePath": "_content/App.Web",
   "Mode": "Default",
@@ -168,6 +168,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\pages\\usuarios.js"
+    },
+    {
+      "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\usuarios-formulario.js",
+      "SourceId": "App.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\",
+      "BasePath": "_content/App.Web",
+      "RelativePath": "js/pages/usuarios-formulario.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\pages\\usuarios-formulario.js"
     },
     {
       "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\services\\CidadeService.js",
