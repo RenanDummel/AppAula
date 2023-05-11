@@ -1,9 +1,9 @@
 $(document).ready(function () {
-    laod();
+    load();
 });
 
 function load() {
-    UsuarioListaUsuarios().then(function (data) {
+    UsuariosListaUsuarios().then(function (data) {
         data.forEach(obj => {
             $('#table tbody').append('' +
                 '<tr id="obj-' + obj.id + '">' +
