@@ -1,9 +1,7 @@
 ﻿using App.Domain.DTO;
 using App.Domain.Entidade;
 using App.Domain.Interfaces.Application;
-using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using System.Data.SqlTypes;
 
 namespace App.Api.Controllers
 {

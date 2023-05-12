@@ -11,5 +11,6 @@ namespace App.Domain.Interfaces.Application
     {
         List<Usuarios> ListaUsuarios();
         void Salvar(Usuarios obj);
+        void Remover(Guid id);
     }
 }

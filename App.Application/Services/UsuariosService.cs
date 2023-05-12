@@ -17,9 +17,16 @@ namespace App.Application.Services
         {
             _repository = repository;
         }
+
         public List<Usuarios> ListaUsuarios()
         {
             return _repository.Query(x => 1 == 1).ToList();
+        }
+
+        public void Remover(Guid id)
+        {
+            _repository.Delete(id);
+            _repository.SaveChanges();
         }
 
         public void Salvar(Usuarios obj)

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "L8j7taCvA0rQ2Be2msj9gThnvDClrdXBxE/LdjhOupo=",
+  "Hash": "8cKE/U6XkG1fVx0d0I5Ggy7+/zE8fMuIwMFcWwJW68A=",
   "Source": "App.Web",
   "BasePath": "_content/App.Web",
   "Mode": "Default",
@@ -119,12 +119,12 @@
       "OriginalItemSpec": "wwwroot\\js\\core\\requester.js"
     },
     {
-      "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\cidades.js",
+      "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\cidades\\cidades.js",
       "SourceId": "App.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\",
       "BasePath": "_content/App.Web",
-      "RelativePath": "js/pages/cidades.js",
+      "RelativePath": "js/pages/cidades/cidades.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\pages\\cidades.js"
+      "OriginalItemSpec": "wwwroot\\js\\pages\\cidades\\cidades.js"
     },
     {
-      "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\cidades-formulario.js",
+      "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\cidades\\cidades-formulario.js",
       "SourceId": "App.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\",
       "BasePath": "_content/App.Web",
-      "RelativePath": "js/pages/cidades-formulario.js",
+      "RelativePath": "js/pages/cidades/cidades-formulario.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,15 +150,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\pages\\cidades-formulario.js"
+      "OriginalItemSpec": "wwwroot\\js\\pages\\cidades\\cidades-formulario.js"
     },
     {
-      "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\usuarios.js",
+      "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\usuarios\\usuarios.js",
       "SourceId": "App.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\",
       "BasePath": "_content/App.Web",
-      "RelativePath": "js/pages/usuarios.js",
+      "RelativePath": "js/pages/usuarios/usuarios.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -167,15 +167,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\pages\\usuarios.js"
+      "OriginalItemSpec": "wwwroot\\js\\pages\\usuarios\\usuarios.js"
     },
     {
-      "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\usuarios-formulario.js",
+      "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\usuarios\\usuarios-formulario.js",
       "SourceId": "App.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\",
       "BasePath": "_content/App.Web",
-      "RelativePath": "js/pages/usuarios-formulario.js",
+      "RelativePath": "js/pages/usuarios/usuarios-formulario.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,7 +184,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\pages\\usuarios-formulario.js"
+      "OriginalItemSpec": "wwwroot\\js\\pages\\usuarios\\usuarios-formulario.js"
     },
     {
       "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\services\\CidadeService.js",

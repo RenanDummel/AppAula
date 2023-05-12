@@ -141,7 +141,7 @@ function GetApiAddress() {
         if (window.location.host.indexOf('demo') > -1) {
             return "https://demoautenticador.abase.com.br/api/";
         }
-        return "https://localhost:7121/swagger/index.html";//Endereço em que está compilando a api
+        return "https://localhost:7121/";
     }
     return new URL(window.location.href).origin + "/api/";
 }

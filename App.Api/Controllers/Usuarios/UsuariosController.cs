@@ -10,13 +10,14 @@ namespace App.Api.Controllers
     public class UsuariosController : Controller
     {
         private IUsuariosService _service;
+
         public UsuariosController(IUsuariosService service)
         {
             _service = service;
         }
 
         [HttpGet("ListaUsuarios")]
-        public JsonResult ListaUsuarios(string busca)
+        public JsonResult ListaUsuarios()
         {
             try
             {
@@ -29,16 +30,23 @@ namespace App.Api.Controllers
             }
         }
         [HttpPost("Salvar")]
-        public JsonResult Salvar(string nome, string email, string senha)
+        public JsonResult Salvar([FromBody] Usuarios obj)
         {
-            var obj = new Usuarios
-            {
-                Nome = nome,
-                Email = email,
-                Senha = senha
-            };
             _service.Salvar(obj);
-            return Json(true);
+            return Json(RetornoApi.Sucesso(true));
+        }
+        [HttpDelete("Remover")]
+        public JsonResult Remover(Guid Id)
+        {
+            try
+            {
+                _service.Remover(Id);
+                return Json(RetornoApi.Sucesso(true));
+            }
+            catch (Exception ex)
+            {
+                return Json(RetornoApi.Erro(ex.Message));
+            }
         }
     }
 }

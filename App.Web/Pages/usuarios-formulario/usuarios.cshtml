@@ -1,20 +1,21 @@
 ﻿@page "/usuarios"
 <h4>Lista de Usuários</h4>
-<button class="btn btn-primary" onclick="window.location.href = '/usuarios/formulario'">Adicionar</button>
 <div class="table-responsive" id="table">
     <table class="table mb-0">
         <thead>
             <tr>
-                <th>Nome</th>
-                <th>Email</th>
-                <th>Senha</th>
+                <th width="33%">Nome</th>
+                <th width="33%">Email</th>
+                <th width="33%">Config</th>
             </tr>
         </thead>
         <tbody>
         </tbody>
     </table>
 </div>
+<button class="btn btn-primary" onclick="window.location.href = '/usuarios/formulario'">Adicionar</button>
+
 
 @section Scripts {
-    <script src="~/js/pages/usuarios.js"></script>
+    <script src="~/js/pages/usuarios/usuarios.js"></script>
 }

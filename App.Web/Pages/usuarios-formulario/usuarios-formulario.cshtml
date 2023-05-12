@@ -1,4 +1,4 @@
-﻿@page "/usuarios/formulario"
+﻿@page "/usuarios/formulario/{id?}"
 <h4>Formulário de Usuários</h4>
 <div class="row">
     <div class="col-md-3 col-sm-12">
@@ -23,9 +23,9 @@
 <br />
 <div>
     <button class="btn btn-primary btn-sm" onclick="salvar();">Salvar</button>
-    <button class="btn btn-danger btn-sm" onclick="window.location.href" ="'/usuarios'">Cancelar</button>
+    <button class="btn btn-danger btn-sm" onclick="window.location.href='/usuarios'">Cancelar</button>
 </div>
 
 @section Scripts {
-    <script src="~/js/pages/usuarios-formulario.js"></script>
+    <script src="~/js/pages/usuarios/usuarios-formulario.js"></script>
 }
