@@ -25,7 +25,6 @@ namespace App.Persistence
         {
             return _dbSetEntity.Where(where).AsNoTracking();
         }
-
         public void Save(TEntity obj)
         {
             if ((Guid)obj.GetType().GetProperty("Id").GetValue(obj, null) != Guid.Empty)
@@ -37,7 +36,6 @@ namespace App.Persistence
                 _dbSetEntity.Add(obj);
             }
         }
-
         public void Update(TEntity obj)
         {
             _dbSetEntity.Update(obj);
@@ -51,7 +49,6 @@ namespace App.Persistence
                 _dbSetEntity.Remove(data);
             }
         }
-
         public int SaveChanges()
         {
             var written = 0;

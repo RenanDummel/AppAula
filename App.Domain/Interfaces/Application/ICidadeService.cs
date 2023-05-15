@@ -2,16 +2,17 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Runtime.ConstrainedExecution;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace App.Domain.Interfaces.Application
 {
-    public interface IUsuariosService
+    public interface ICidadeService
     {
-        List<Usuarios> ListaUsuarios();
-        void Salvar(Usuarios obj);
-        Usuarios BuscaPorId(Guid id);
+        List<Cidade> ListaCidade();
+        void Salvar(Cidade obj);
+        Cidade BuscaPorId(Guid id);
         void Remover(Guid id);
     }
 }

@@ -7,21 +7,21 @@ namespace App.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class UsuariosController : Controller
+    public class CidadeController : Controller
     {
-        private IUsuariosService _service;
+        private ICidadeService _service;
 
-        public UsuariosController(IUsuariosService service)
+        public CidadeController(ICidadeService service)
         {
             _service = service;
         }
 
-        [HttpGet("ListaUsuarios")]
-        public JsonResult ListaUsuarios()
+        [HttpGet("ListaCidade")]
+        public JsonResult ListaCidade()
         {
             try
             {
-                var obj = _service.ListaUsuarios();
+                var obj = _service.ListaCidade();
                 return Json(RetornoApi.Sucesso(obj));
             }
             catch (Exception ex)
@@ -29,7 +29,6 @@ namespace App.Api.Controllers
                 return Json(RetornoApi.Erro(ex.Message));
             }
         }
-
         [HttpGet("BuscaPorId")]
         public JsonResult BuscaPorId(Guid id)
         {
@@ -43,19 +42,18 @@ namespace App.Api.Controllers
                 return Json(RetornoApi.Erro(ex.Message));
             }
         }
-
         [HttpPost("Salvar")]
-        public JsonResult Salvar([FromBody] Usuarios obj)
+        public JsonResult Salvar([FromBody] Cidade obj)
         {
             _service.Salvar(obj);
             return Json(RetornoApi.Sucesso(true));
         }
         [HttpDelete("Remover")]
-        public JsonResult Remover(Guid Id)
+        public JsonResult Remover(Guid id)
         {
             try
             {
-                _service.Remover(Id);
+                _service.Remover(id);
                 return Json(RetornoApi.Sucesso(true));
             }
             catch (Exception ex)

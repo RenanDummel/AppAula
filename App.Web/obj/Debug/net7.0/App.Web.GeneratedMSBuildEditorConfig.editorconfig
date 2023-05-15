@@ -16,12 +16,12 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\renan.dummel\source\repos\App\App.Web
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/renan.dummel/source/repos/App/App.Web/Pages/cidades-formulario/cidade.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2lkYWRlcy1mb3JtdWxhcmlvXGNpZGFkZS5jc2h0bWw=
+[C:/Users/renan.dummel/source/repos/App/App.Web/Pages/cidade-formulario/cidade-formulario.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2lkYWRlLWZvcm11bGFyaW9cY2lkYWRlLWZvcm11bGFyaW8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/renan.dummel/source/repos/App/App.Web/Pages/cidades-formulario/cidades-formulario.cshtml]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2lkYWRlcy1mb3JtdWxhcmlvXGNpZGFkZXMtZm9ybXVsYXJpby5jc2h0bWw=
+[C:/Users/renan.dummel/source/repos/App/App.Web/Pages/cidade-formulario/cidade.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcY2lkYWRlLWZvcm11bGFyaW9cY2lkYWRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/renan.dummel/source/repos/App/App.Web/Pages/Error.cshtml]

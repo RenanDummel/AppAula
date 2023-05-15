@@ -1,29 +1,24 @@
 ﻿using App.Domain.Entidade;
 using App.Domain.Interfaces.Application;
 using App.Domain.Interfaces.Repositories;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace App.Application.Services
 {
-    public class UsuariosService : IUsuariosService
+    public class CidadeService : ICidadeService
     {
-        private IRepositoryBase<Usuarios> _repository { get; set; }
+        private IRepositoryBase<Cidade> _repository { get; set; }
 
-        public UsuariosService(IRepositoryBase<Usuarios> repository)
+        public CidadeService(IRepositoryBase<Cidade> repository)
         {
             _repository = repository;
         }
 
-        public List<Usuarios> ListaUsuarios()
+        public List<Cidade> ListaCidade()
         {
             return _repository.Query(x => 1 == 1).ToList();
         }
 
-        public Usuarios BuscaPorId(Guid id)
+        public Cidade BuscaPorId(Guid id)
         {
             return _repository.Query(x => x.Id == id).FirstOrDefault();
         }
@@ -34,11 +29,11 @@ namespace App.Application.Services
             _repository.SaveChanges();
         }
 
-        public void Salvar(Usuarios obj)
+        public void Salvar(Cidade obj)
         {
-            if (String.IsNullOrEmpty(obj.Nome))
+            if (String.IsNullOrEmpty(obj.Municipio))
             {
-                throw new Exception("Informe o nome");
+                throw new Exception("Informe o município");
             }
             _repository.Save(obj);
             _repository.SaveChanges();

@@ -21,12 +21,12 @@
       "PackagePath": "staticwebassets\\js\\core\\requester.js"
     },
     {
-      "Id": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\cidades\\cidades-formulario.js",
-      "PackagePath": "staticwebassets\\js\\pages\\cidades\\cidades-formulario.js"
+      "Id": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\cidade\\cidade-formulario.js",
+      "PackagePath": "staticwebassets\\js\\pages\\cidade\\cidade-formulario.js"
     },
     {
-      "Id": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\cidades\\cidades.js",
-      "PackagePath": "staticwebassets\\js\\pages\\cidades\\cidades.js"
+      "Id": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\cidade\\cidade.js",
+      "PackagePath": "staticwebassets\\js\\pages\\cidade\\cidade.js"
     },
     {
       "Id": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\usuarios\\usuarios-formulario.js",

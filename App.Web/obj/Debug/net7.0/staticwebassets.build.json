@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "8cKE/U6XkG1fVx0d0I5Ggy7+/zE8fMuIwMFcWwJW68A=",
+  "Hash": "MOHC/JmABZq1g6hUhONAAV6GfygybZQtjsSj2ItzrFw=",
   "Source": "App.Web",
   "BasePath": "_content/App.Web",
   "Mode": "Default",
@@ -119,12 +119,12 @@
       "OriginalItemSpec": "wwwroot\\js\\core\\requester.js"
     },
     {
-      "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\cidades\\cidades.js",
+      "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\cidade\\cidade.js",
       "SourceId": "App.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\",
       "BasePath": "_content/App.Web",
-      "RelativePath": "js/pages/cidades/cidades.js",
+      "RelativePath": "js/pages/cidade/cidade.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -133,15 +133,15 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\pages\\cidades\\cidades.js"
+      "OriginalItemSpec": "wwwroot\\js\\pages\\cidade\\cidade.js"
     },
     {
-      "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\cidades\\cidades-formulario.js",
+      "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\cidade\\cidade-formulario.js",
       "SourceId": "App.Web",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\",
       "BasePath": "_content/App.Web",
-      "RelativePath": "js/pages/cidades/cidades-formulario.js",
+      "RelativePath": "js/pages/cidade/cidade-formulario.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -150,7 +150,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\pages\\cidades\\cidades-formulario.js"
+      "OriginalItemSpec": "wwwroot\\js\\pages\\cidade\\cidade-formulario.js"
     },
     {
       "Identity": "C:\\Users\\renan.dummel\\source\\repos\\App\\App.Web\\wwwroot\\js\\pages\\usuarios\\usuarios.js",
