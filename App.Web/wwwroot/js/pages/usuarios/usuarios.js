@@ -14,6 +14,8 @@ function load() {
                 '<tr id="obj-' + obj.id + '">' +
                 '<td>' + (obj.nome || '--') + '</td>' +
                 '<td>' + (obj.email || '--') + '</td>' +
+                '<td>' + (obj.cidade.municipio || '--') + '</td>' +
+                '<td>' + (obj.cidade.cep || '--') + '</td>' +
                 '<td>' + btnEditar + btnRemover + '</td>' +
                 '</tr>')
         });

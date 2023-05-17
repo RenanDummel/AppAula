@@ -20,7 +20,17 @@ namespace App.Application.Services
 
         public List<Usuarios> ListaUsuarios()
         {
-            return _repository.Query(x => 1 == 1).ToList();
+            return _repository.Query(x => 1 == 1).Select(x => new Usuarios
+            {
+                Id = x.Id,
+                Nome = x.Nome,
+                Email = x.Email,    
+                Cidade = new Cidade
+                {
+                    Cep = x.Cidade.Cep,
+                    Municipio = x.Cidade.Municipio
+                }
+            }).ToList();
         }
 
         public Usuarios BuscaPorId(Guid id)

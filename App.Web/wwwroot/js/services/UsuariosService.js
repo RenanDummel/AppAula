@@ -13,7 +13,7 @@ async function UsuariosListaUsuarios() {
     });
 }
 
-async function UsuariosSalvar(obj) {
+async function UsuariosSalvar(obj) { debugger
     return new Promise((resolve, reject) => {
         Post('Usuarios/Salvar', obj).then(function (response) {
             if (response.status === 'success') {

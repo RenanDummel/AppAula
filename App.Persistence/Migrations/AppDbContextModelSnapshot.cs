@@ -22,10 +22,36 @@ namespace App.Persistence.Migrations
 
             NpgsqlModelBuilderExtensions.UseIdentityByDefaultColumns(modelBuilder);
 
+            modelBuilder.Entity("App.Domain.Entidade.Cidade", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<string>("Cep")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("Municipio")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.Property<string>("UF")
+                        .IsRequired()
+                        .HasColumnType("text");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Cidade");
+                });
+
             modelBuilder.Entity("App.Domain.Entidade.Usuarios", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("uuid");
+
+                    b.Property<Guid>("CidadeId")
                         .HasColumnType("uuid");
 
                     b.Property<string>("Email")
@@ -42,7 +68,20 @@ namespace App.Persistence.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Usuario");
+                    b.HasIndex("CidadeId");
+
+                    b.ToTable("Usuarios");
+                });
+
+            modelBuilder.Entity("App.Domain.Entidade.Usuarios", b =>
+                {
+                    b.HasOne("App.Domain.Entidade.Cidade", "Cidade")
+                        .WithMany()
+                        .HasForeignKey("CidadeId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Cidade");
                 });
 #pragma warning restore 612, 618
         }
